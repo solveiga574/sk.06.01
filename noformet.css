@@ -2,5 +2,26 @@ body {
     background-color: gray;
 }
 h1{
-color: red;
+  color: red;
+  text-align: right;
+}
+table, th, td {
+    border: 1px solid black;
+  }
+  td{
+    background-color: green;
+  }
+  img {
+    border: 1px solid rgb(240, 13, 13);
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+  }
+ div{
+   border: 15px red; 
+   background-color: green;
+ }
+ img{
+  max-width: 100%;
+  height: auto; 
 }
